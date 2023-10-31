@@ -46,7 +46,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - id: init
-        uses: "SocialGouv/dashlord-actions/init@v1"
+        uses: "edelagnier/dashlord-actions/init@v1"
         with:
           url: ${{ github.event.inputs.url }}
           tool: ${{ github.event.inputs.tool }}
@@ -79,7 +79,7 @@ jobs:
         id: sonarcloud
         continue-on-error: true
         timeout-minutes: 10
-        uses: SocialGouv/dashlord-actions/sonarcloud@v1
+        uses: edelagnier/dashlord-actions/sonarcloud@v1
         with:
           repos: ${{ join(matrix.sites.repositories) }}
           output: "scans/sonarcloud.json"
@@ -96,7 +96,7 @@ jobs:
 
       - name: Déclaration a11y
         timeout-minutes: 10
-        uses: "socialgouv/dashlord-actions/declaration-a11y@v1"
+        uses: "edelagnier/dashlord-actions/declaration-a11y@v1"
         if: ${{ matrix.sites.tools['declaration-a11y'] }}
         with:
           url: ${{ matrix.sites.url }}
@@ -105,7 +105,7 @@ jobs:
       - name: eco-index
         continue-on-error: true
         timeout-minutes: 10
-        uses: "socialgouv/dashlord-actions/ecoindex@v1"
+        uses: "edelagnier/dashlord-actions/ecoindex@v1"
         if: ${{ matrix.sites.tools.ecoindex }}
         with:
           url: ${{ matrix.sites.url }}
@@ -113,7 +113,7 @@ jobs:
 
       - name: Déclaration RGPD
         timeout-minutes: 10
-        uses: SocialGouv/dashlord-actions/declaration-rgpd@v1
+        uses: edelagnier/dashlord-actions/declaration-rgpd@v1
         if: ${{ matrix.sites.tools['declaration-rgpd'] }}
         with:
           thirdparties: ${{ steps.thirdparties.outputs.json }}
@@ -124,7 +124,7 @@ jobs:
         continue-on-error: true
         timeout-minutes: 20
         if: ${{ matrix.sites.tools.trivy && matrix.sites.docker }}
-        uses: "socialgouv/dashlord-actions/trivy@v1"
+        uses: "edelagnier/dashlord-actions/trivy@v1"
         with:
           images: ${{ join(matrix.sites.docker) }}
           output: scans/trivy.json
@@ -195,7 +195,7 @@ jobs:
       - name: Lighthouse scan
         if: ${{ matrix.sites.tools.lighthouse }}
         timeout-minutes: 10
-        uses: socialgouv/dashlord-actions/lhci@v1
+        uses: edelagnier/dashlord-actions/lhci@v1
         with:
           url: "${{ join(matrix.sites.subpages, ',') }}"
 
@@ -272,7 +272,7 @@ jobs:
           repositories: ${{ join(matrix.sites.repositories) }}
           output: scans/codescanalerts.json
 
-      - uses: SocialGouv/dashlord-actions/save@v1
+      - uses: edelagnier/dashlord-actions/save@v1
         with:
           url: ${{ matrix.sites.url }}
           # only clean up previous stats when all tools runned

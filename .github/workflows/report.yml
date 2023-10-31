@@ -29,7 +29,7 @@ jobs:
 
       # build the report
       - id: dashlord-report
-        uses: SocialGouv/dashlord-actions/report@v1
+        uses: edelagnier/dashlord-actions/report@v1
         with:
           base-path: /dashlord # adapt to your repo name
 
