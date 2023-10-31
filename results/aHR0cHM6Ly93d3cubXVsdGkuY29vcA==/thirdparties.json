@@ -1,0 +1,627 @@
+{
+  "trackers": [
+    {
+      "type": "jsdelivr",
+      "url": "https://cdn.jsdelivr.net/npm/@mdi/font@5.8.55/css/materialdesignicons.min.css",
+      "details": {
+        "id": "jsdelivr",
+        "message": "Host files locally"
+      }
+    },
+    {
+      "type": "github",
+      "url": "https://raw.githubusercontent.com/multi-coop/multi-site-contents/main/config/global.md",
+      "details": {
+        "id": "github",
+        "message": "Dont link GitHub ressources, host them directly"
+      }
+    },
+    {
+      "type": "github",
+      "url": "https://raw.githubusercontent.com/multi-coop/multi-site-contents/main/config/navbar.md",
+      "details": {
+        "id": "github",
+        "message": "Dont link GitHub ressources, host them directly"
+      }
+    },
+    {
+      "type": "github",
+      "url": "https://raw.githubusercontent.com/multi-coop/multi-site-contents/main/config/footer.md",
+      "details": {
+        "id": "github",
+        "message": "Dont link GitHub ressources, host them directly"
+      }
+    },
+    {
+      "type": "github",
+      "url": "https://raw.githubusercontent.com/multi-coop/multi-site-contents/main/config/routes.md",
+      "details": {
+        "id": "github",
+        "message": "Dont link GitHub ressources, host them directly"
+      }
+    },
+    {
+      "type": "github",
+      "url": "https://raw.githubusercontent.com/multi-coop/multi-site-contents/main/styles/custom-css-multi.css",
+      "details": {
+        "id": "github",
+        "message": "Dont link GitHub ressources, host them directly"
+      }
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.matomo.cloud/multi.matomo.cloud/matomo.js"
+    },
+    {
+      "type": "github",
+      "url": "https://raw.githubusercontent.com/multi-coop/multi-site-contents/main/texts/landing/landing-head-fr.md",
+      "details": {
+        "id": "github",
+        "message": "Dont link GitHub ressources, host them directly"
+      }
+    },
+    {
+      "type": "github",
+      "url": "https://raw.githubusercontent.com/multi-coop/multi-site-contents/main/texts/landing/catchphrase-fr.md",
+      "details": {
+        "id": "github",
+        "message": "Dont link GitHub ressources, host them directly"
+      }
+    },
+    {
+      "type": "github",
+      "url": "https://raw.githubusercontent.com/multi-coop/multi-site-contents/main/texts/landing/landing-clients-intro-fr.md",
+      "details": {
+        "id": "github",
+        "message": "Dont link GitHub ressources, host them directly"
+      }
+    },
+    {
+      "type": "github",
+      "url": "https://raw.githubusercontent.com/multi-coop/multi-site-contents/main/texts/landing/landing-clients-logos.md",
+      "details": {
+        "id": "github",
+        "message": "Dont link GitHub ressources, host them directly"
+      }
+    },
+    {
+      "type": "github",
+      "url": "https://raw.githubusercontent.com/multi-coop/multi-site-contents/main/images/logos/logo-MULTI-colored-063442-02.png",
+      "details": {
+        "id": "github",
+        "message": "Dont link GitHub ressources, host them directly"
+      }
+    },
+    {
+      "type": "jsdelivr",
+      "url": "https://cdn.jsdelivr.net/npm/@mdi/font@5.8.55/fonts/materialdesignicons-webfont.woff2?v=5.8.55",
+      "details": {
+        "id": "jsdelivr",
+        "message": "Host files locally"
+      }
+    },
+    {
+      "type": "jsdelivr",
+      "url": "https://cdn.jsdelivr.net/npm/@mdi/font@5.8.55/fonts/materialdesignicons-webfont.woff2?v=5.8.55",
+      "details": {
+        "id": "jsdelivr",
+        "message": "Host files locally"
+      }
+    },
+    {
+      "type": "unknown",
+      "url": "https://multi.matomo.cloud/matomo.php?action_name=multi%20-%20www.multi.coop&idsite=3&rec=1&r=593172&h=15&m=52&s=36&url=https%3A%2F%2Fwww.multi.coop%2F%3Flocale%3Dfr&_id=80c0f8b30d0de48e&_idn=0&send_image=0&_refts=0&pv_id=rHbqs6&pf_net=163&pf_srv=4&pf_tfr=2&pf_dm1=514&pf_dm2=29&pf_onl=0&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+    },
+    {
+      "type": "github",
+      "url": "https://raw.githubusercontent.com/multi-coop/multi-site-contents/julien-update-colors/images/logos/logo-MULTI-colored-063442-02.png",
+      "details": {
+        "id": "github",
+        "message": "Dont link GitHub ressources, host them directly"
+      }
+    },
+    {
+      "type": "github",
+      "url": "https://raw.githubusercontent.com/multi-coop/multi-site-contents/main/images/clients/odf-logo.svg",
+      "details": {
+        "id": "github",
+        "message": "Dont link GitHub ressources, host them directly"
+      }
+    },
+    {
+      "type": "github",
+      "url": "https://raw.githubusercontent.com/multi-coop/multi-site-contents/main/images/clients/dinum-logo.svg",
+      "details": {
+        "id": "github",
+        "message": "Dont link GitHub ressources, host them directly"
+      }
+    },
+    {
+      "type": "github",
+      "url": "https://raw.githubusercontent.com/multi-coop/multi-site-contents/main/images/clients/mte-logo.svg",
+      "details": {
+        "id": "github",
+        "message": "Dont link GitHub ressources, host them directly"
+      }
+    },
+    {
+      "type": "github",
+      "url": "https://raw.githubusercontent.com/multi-coop/multi-site-contents/main/images/clients/min-mer-logo.svg",
+      "details": {
+        "id": "github",
+        "message": "Dont link GitHub ressources, host them directly"
+      }
+    },
+    {
+      "type": "github",
+      "url": "https://raw.githubusercontent.com/multi-coop/multi-site-contents/main/images/clients/anct-logo.png",
+      "details": {
+        "id": "github",
+        "message": "Dont link GitHub ressources, host them directly"
+      }
+    },
+    {
+      "type": "github",
+      "url": "https://raw.githubusercontent.com/multi-coop/multi-site-contents/main/images/clients/ademe-logo.png",
+      "details": {
+        "id": "github",
+        "message": "Dont link GitHub ressources, host them directly"
+      }
+    },
+    {
+      "type": "github",
+      "url": "https://raw.githubusercontent.com/multi-coop/multi-site-contents/main/images/clients/fabmob-logo.png",
+      "details": {
+        "id": "github",
+        "message": "Dont link GitHub ressources, host them directly"
+      }
+    },
+    {
+      "type": "github",
+      "url": "https://raw.githubusercontent.com/multi-coop/multi-site-contents/main/images/clients/mednum-logo.jpg",
+      "details": {
+        "id": "github",
+        "message": "Dont link GitHub ressources, host them directly"
+      }
+    },
+    {
+      "type": "github",
+      "url": "https://raw.githubusercontent.com/multi-coop/multi-site-contents/main/images/clients/mednum-bfc-logo.png",
+      "details": {
+        "id": "github",
+        "message": "Dont link GitHub ressources, host them directly"
+      }
+    },
+    {
+      "type": "github",
+      "url": "https://raw.githubusercontent.com/multi-coop/multi-site-contents/main/images/clients/ping-logo.png",
+      "details": {
+        "id": "github",
+        "message": "Dont link GitHub ressources, host them directly"
+      }
+    },
+    {
+      "type": "github",
+      "url": "https://raw.githubusercontent.com/multi-coop/multi-site-contents/main/images/clients/conumm-logo.png",
+      "details": {
+        "id": "github",
+        "message": "Dont link GitHub ressources, host them directly"
+      }
+    },
+    {
+      "type": "github",
+      "url": "https://raw.githubusercontent.com/multi-coop/multi-site-contents/main/images/clients/rhinocc-logo.jpg",
+      "details": {
+        "id": "github",
+        "message": "Dont link GitHub ressources, host them directly"
+      }
+    },
+    {
+      "type": "github",
+      "url": "https://raw.githubusercontent.com/multi-coop/multi-site-contents/main/images/clients/dept-doubs-logo.jpg",
+      "details": {
+        "id": "github",
+        "message": "Dont link GitHub ressources, host them directly"
+      }
+    },
+    {
+      "type": "github",
+      "url": "https://raw.githubusercontent.com/multi-coop/multi-site-contents/main/images/clients/epa-senart-logo.png",
+      "details": {
+        "id": "github",
+        "message": "Dont link GitHub ressources, host them directly"
+      }
+    },
+    {
+      "type": "github",
+      "url": "https://raw.githubusercontent.com/multi-coop/multi-site-contents/main/images/clients/francilin-logo.jpg",
+      "details": {
+        "id": "github",
+        "message": "Dont link GitHub ressources, host them directly"
+      }
+    },
+    {
+      "type": "github",
+      "url": "https://raw.githubusercontent.com/multi-coop/multi-site-contents/main/images/clients/decider-ensemble-logo.jpg",
+      "details": {
+        "id": "github",
+        "message": "Dont link GitHub ressources, host them directly"
+      }
+    }
+  ],
+  "cookies": [],
+  "headers": {
+    "accept-ranges": "bytes",
+    "access-control-allow-origin": "*",
+    "age": "37351",
+    "cache-control": "public,max-age=0,must-revalidate",
+    "content-encoding": "br",
+    "content-length": "866",
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Tue, 31 Oct 2023 15:52:35 GMT",
+    "etag": "\"0671994594b63a058f12f9bb30d0270b-ssl-df\"",
+    "server": "Netlify",
+    "strict-transport-security": "max-age=31536000",
+    "vary": "Accept-Encoding",
+    "x-nf-request-id": "01HE36ZJVYD18JK82J26MDCAS6"
+  },
+  "endpoints": [
+    {
+      "hostname": "www.multi.coop",
+      "ip": "54.161.234.33",
+      "geoip": {
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "Vereinigte Staaten",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 38.6583,
+          "longitude": -77.2481,
+          "time_zone": "America/New_York"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "Vereinigte Staaten",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 6254928,
+            "iso_code": "VA",
+            "names": {
+              "en": "Virginia",
+              "fr": "Virginie",
+              "ja": "バージニア州",
+              "pt-BR": "Virgínia",
+              "ru": "Вирджиния",
+              "zh-CN": "弗吉尼亚州"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "hostname": "cdn.jsdelivr.net",
+      "ip": "146.75.37.229",
+      "geoip": {
+        "city": {
+          "geoname_id": 4781530,
+          "names": {
+            "de": "Reston",
+            "en": "Reston",
+            "ja": "レストン",
+            "ru": "Рестон"
+          }
+        },
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "Vereinigte Staaten",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 20,
+          "latitude": 38.9609,
+          "longitude": -77.3429,
+          "metro_code": 511,
+          "time_zone": "America/New_York"
+        },
+        "postal": {
+          "code": "20190"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "Vereinigte Staaten",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 6254928,
+            "iso_code": "VA",
+            "names": {
+              "en": "Virginia",
+              "fr": "Virginie",
+              "ja": "バージニア州",
+              "pt-BR": "Virgínia",
+              "ru": "Вирджиния",
+              "zh-CN": "弗吉尼亚州"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "hostname": "raw.githubusercontent.com",
+      "ip": "185.199.111.133",
+      "geoip": {
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "Vereinigte Staaten",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 34.0544,
+          "longitude": -118.244,
+          "time_zone": "America/Los_Angeles"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "Vereinigte Staaten",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 5332921,
+            "iso_code": "CA",
+            "names": {
+              "de": "Kalifornien",
+              "en": "California",
+              "es": "California",
+              "fr": "Californie",
+              "ja": "カリフォルニア州",
+              "pt-BR": "Califórnia",
+              "ru": "Калифорния",
+              "zh-CN": "加州"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "hostname": "cdn.matomo.cloud",
+      "ip": "3.162.125.95",
+      "geoip": {
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "Vereinigte Staaten",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "Vereinigte Staaten",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        }
+      }
+    },
+    {
+      "hostname": "multi.matomo.cloud",
+      "ip": "18.195.235.189",
+      "geoip": {
+        "city": {
+          "geoname_id": 2925533,
+          "names": {
+            "de": "Frankfurt am Main",
+            "en": "Frankfurt am Main",
+            "es": "Francfort",
+            "fr": "Francfort-sur-le-Main",
+            "ja": "フランクフルト・アム・マイン",
+            "pt-BR": "Frankfurt am Main",
+            "ru": "Франкфурт",
+            "zh-CN": "法兰克福"
+          }
+        },
+        "continent": {
+          "code": "EU",
+          "geoname_id": 6255148,
+          "names": {
+            "de": "Europa",
+            "en": "Europe",
+            "es": "Europa",
+            "fr": "Europe",
+            "ja": "ヨーロッパ",
+            "pt-BR": "Europa",
+            "ru": "Европа",
+            "zh-CN": "欧洲"
+          }
+        },
+        "country": {
+          "geoname_id": 2921044,
+          "is_in_european_union": true,
+          "iso_code": "DE",
+          "names": {
+            "de": "Deutschland",
+            "en": "Germany",
+            "es": "Alemania",
+            "fr": "Allemagne",
+            "ja": "ドイツ連邦共和国",
+            "pt-BR": "Alemanha",
+            "ru": "ФРГ",
+            "zh-CN": "德国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 50.1188,
+          "longitude": 8.6843,
+          "time_zone": "Europe/Berlin"
+        },
+        "postal": {
+          "code": "60313"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "Vereinigte Staaten",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 2905330,
+            "iso_code": "HE",
+            "names": {
+              "de": "Hessen",
+              "en": "Hesse",
+              "es": "Hessen",
+              "fr": "Hesse",
+              "ru": "Гессен"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

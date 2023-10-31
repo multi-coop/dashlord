@@ -1,0 +1,17 @@
+[
+    {
+        "width": 1920,
+        "height": 1080,
+        "url": "https://www.multi.coop",
+        "size": 4426.375,
+        "nodes": 433,
+        "requests": 41,
+        "grade": "C",
+        "score": 59.0,
+        "ges": 1.82,
+        "water": 2.73,
+        "ecoindex_version": "5.4.2",
+        "date": "2023-10-31 15:53:59.529252",
+        "page_type": null
+    }
+]
