@@ -1,0 +1,44 @@
+:root {
+  --multi-green: rgb(79, 196, 175);
+  --multi-logo-green: rgb(6, 52, 66);
+  --multi-yellow: rgb(251, 241, 205);
+}
+
+.non-governemental-website {
+
+  .fr-nav__link[aria-current]::before {
+      background-color: var(--multi-logo-green);
+  }
+
+  .fr-footer {
+      box-shadow: var(--multi-logo-green) 0px -2px 0px 0px, rgb(229, 229, 229) 0px -1px 0px 0px inset;
+  }
+
+  .fr-callout {
+      box-shadow: var(--multi-green) 4px 0px 0px 0px inset
+  }
+
+  .fr-btn {
+      background-color: var(--multi-logo-green);
+      &:hover {
+          background-color: var(--multi-green);
+      }
+  }
+
+  .fr-nav__btn[aria-expanded=true] {
+      --hover:var(--multi-logo-green);
+      --active:var(--multi-green);
+      background-color:var(--multi-yellow);
+  }
+
+  strong {
+    /* box-shadow: inset 0 -0.4em 0 0 #FDF3CF; */
+    background: linear-gradient( to left, var(--multi-yellow), var(--multi-yellow));
+    background-position: 0.25em bottom;
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+    padding-right: 0.25em;
+    margin-right: -0.25em;
+  }
+}
+
