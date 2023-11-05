@@ -109,10 +109,6 @@
       }
     },
     {
-      "type": "unknown",
-      "url": "https://multi.matomo.cloud/matomo.php?action_name=multi%20-%20www.multi.coop&idsite=3&rec=1&r=593172&h=15&m=52&s=36&url=https%3A%2F%2Fwww.multi.coop%2F%3Flocale%3Dfr&_id=80c0f8b30d0de48e&_idn=0&send_image=0&_refts=0&pv_id=rHbqs6&pf_net=163&pf_srv=4&pf_tfr=2&pf_dm1=514&pf_dm2=29&pf_onl=0&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
-    },
-    {
       "type": "github",
       "url": "https://raw.githubusercontent.com/multi-coop/multi-site-contents/julien-update-colors/images/logos/logo-MULTI-colored-063442-02.png",
       "details": {
@@ -247,29 +243,45 @@
         "id": "github",
         "message": "Dont link GitHub ressources, host them directly"
       }
+    },
+    {
+      "type": "unknown",
+      "url": "https://multi.matomo.cloud/matomo.php?action_name=multi%20-%20www.multi.coop&idsite=3&rec=1&r=972562&h=0&m=43&s=4&url=https%3A%2F%2Fwww.multi.coop%2F%3Flocale%3Dfr&_id=ef5faa080e82882a&_idn=0&send_image=0&_refts=0&cookie=1&res=800x600&pv_id=nqRWjO&pf_net=379&pf_srv=91&pf_tfr=1&pf_dm1=438&pf_dm2=9&pf_onl=0&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D"
     }
   ],
   "cookies": [],
   "headers": {
     "accept-ranges": "bytes",
     "access-control-allow-origin": "*",
-    "age": "37351",
+    "age": "0",
     "cache-control": "public,max-age=0,must-revalidate",
     "content-encoding": "br",
     "content-length": "866",
     "content-type": "text/html; charset=UTF-8",
-    "date": "Tue, 31 Oct 2023 15:52:35 GMT",
+    "date": "Sun, 05 Nov 2023 00:43:01 GMT",
     "etag": "\"0671994594b63a058f12f9bb30d0270b-ssl-df\"",
     "server": "Netlify",
     "strict-transport-security": "max-age=31536000",
     "vary": "Accept-Encoding",
-    "x-nf-request-id": "01HE36ZJVYD18JK82J26MDCAS6"
+    "x-nf-request-id": "01HEEEXQAJ6ZAEW32BHW8BTAHQ"
   },
   "endpoints": [
     {
       "hostname": "www.multi.coop",
-      "ip": "54.161.234.33",
+      "ip": "13.57.148.141",
       "geoip": {
+        "city": {
+          "geoname_id": 5392171,
+          "names": {
+            "de": "San José",
+            "en": "San Jose",
+            "es": "San José",
+            "fr": "San José",
+            "ja": "サンノゼ",
+            "pt-BR": "San José",
+            "ru": "Сан-Хосе"
+          }
+        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -300,9 +312,13 @@
         },
         "location": {
           "accuracy_radius": 1000,
-          "latitude": 38.6583,
-          "longitude": -77.2481,
-          "time_zone": "America/New_York"
+          "latitude": 37.1835,
+          "longitude": -121.7714,
+          "metro_code": 807,
+          "time_zone": "America/Los_Angeles"
+        },
+        "postal": {
+          "code": "95141"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -320,15 +336,17 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 6254928,
-            "iso_code": "VA",
+            "geoname_id": 5332921,
+            "iso_code": "CA",
             "names": {
-              "en": "Virginia",
-              "fr": "Virginie",
-              "ja": "バージニア州",
-              "pt-BR": "Virgínia",
-              "ru": "Вирджиния",
-              "zh-CN": "弗吉尼亚州"
+              "de": "Kalifornien",
+              "en": "California",
+              "es": "California",
+              "fr": "Californie",
+              "ja": "カリフォルニア州",
+              "pt-BR": "Califórnia",
+              "ru": "Калифорния",
+              "zh-CN": "加州"
             }
           }
         ]
@@ -336,15 +354,19 @@
     },
     {
       "hostname": "cdn.jsdelivr.net",
-      "ip": "146.75.37.229",
+      "ip": "146.75.93.229",
       "geoip": {
         "city": {
-          "geoname_id": 4781530,
+          "geoname_id": 5368361,
           "names": {
-            "de": "Reston",
-            "en": "Reston",
-            "ja": "レストン",
-            "ru": "Рестон"
+            "de": "Los Angeles",
+            "en": "Los Angeles",
+            "es": "Los Ángeles",
+            "fr": "Los Angeles",
+            "ja": "ロサンゼルス",
+            "pt-BR": "Los Angeles",
+            "ru": "Лос-Анджелес",
+            "zh-CN": "洛杉矶"
           }
         },
         "continent": {
@@ -377,13 +399,13 @@
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 38.9609,
-          "longitude": -77.3429,
-          "metro_code": 511,
-          "time_zone": "America/New_York"
+          "latitude": 34.0544,
+          "longitude": -118.244,
+          "metro_code": 803,
+          "time_zone": "America/Los_Angeles"
         },
         "postal": {
-          "code": "20190"
+          "code": "90012"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -401,15 +423,17 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 6254928,
-            "iso_code": "VA",
+            "geoname_id": 5332921,
+            "iso_code": "CA",
             "names": {
-              "en": "Virginia",
-              "fr": "Virginie",
-              "ja": "バージニア州",
-              "pt-BR": "Virgínia",
-              "ru": "Вирджиния",
-              "zh-CN": "弗吉尼亚州"
+              "de": "Kalifornien",
+              "en": "California",
+              "es": "California",
+              "fr": "Californie",
+              "ja": "カリフォルニア州",
+              "pt-BR": "Califórnia",
+              "ru": "Калифорния",
+              "zh-CN": "加州"
             }
           }
         ]
@@ -417,7 +441,7 @@
     },
     {
       "hostname": "raw.githubusercontent.com",
-      "ip": "185.199.111.133",
+      "ip": "185.199.109.133",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -487,7 +511,7 @@
     },
     {
       "hostname": "cdn.matomo.cloud",
-      "ip": "3.162.125.95",
+      "ip": "18.65.3.69",
       "geoip": {
         "continent": {
           "code": "NA",
