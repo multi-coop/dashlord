@@ -246,36 +246,41 @@
     },
     {
       "type": "unknown",
-      "url": "https://multi.matomo.cloud/matomo.php?action_name=multi%20-%20www.multi.coop&idsite=3&rec=1&r=367878&h=0&m=45&s=2&url=https%3A%2F%2Fwww.multi.coop%2F%3Flocale%3Dfr&_id=95b04ba4b248f8e8&_idn=0&send_image=0&_refts=0&pv_id=8nfY7f&pf_net=165&pf_srv=5&pf_tfr=1&pf_dm1=209&pf_dm2=9&pf_onl=0&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+      "url": "https://multi.matomo.cloud/matomo.php?action_name=multi%20-%20www.multi.coop&idsite=3&rec=1&r=416928&h=0&m=45&s=25&url=https%3A%2F%2Fwww.multi.coop%2F%3Flocale%3Dfr&_id=b6e1dd8f7ee78961&_idn=0&send_image=0&_refts=0&pv_id=PSdzr2&pf_net=298&pf_srv=295&pf_tfr=1&pf_dm1=505&pf_dm2=127&pf_onl=0&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
     }
   ],
   "cookies": [],
   "headers": {
     "accept-ranges": "bytes",
     "access-control-allow-origin": "*",
-    "age": "12085",
+    "age": "0",
     "cache-control": "public,max-age=0,must-revalidate",
-    "cache-status": "\"Netlify Edge\"; hit",
+    "cache-status": "\"Netlify Edge\"; fwd=miss",
     "content-encoding": "br",
     "content-length": "866",
     "content-type": "text/html; charset=UTF-8",
-    "date": "Sun, 10 Dec 2023 00:45:01 GMT",
+    "date": "Sun, 17 Dec 2023 00:45:22 GMT",
     "etag": "\"0671994594b63a058f12f9bb30d0270b-ssl-df\"",
     "server": "Netlify",
     "strict-transport-security": "max-age=31536000",
     "vary": "Accept-Encoding",
-    "x-nf-request-id": "01HH8JYGV0SPKPX28J42KXZ4VK"
+    "x-nf-request-id": "01HHTKR6DDG90M0XNC633GZ82W"
   },
   "endpoints": [
     {
       "hostname": "www.multi.coop",
-      "ip": "44.217.161.11",
+      "ip": "50.18.215.94",
       "geoip": {
         "city": {
-          "geoname_id": 4744870,
+          "geoname_id": 5392171,
           "names": {
-            "en": "Ashburn",
-            "ru": "Ашберн"
+            "de": "San José",
+            "en": "San Jose",
+            "es": "San José",
+            "fr": "San José",
+            "ja": "サンノゼ",
+            "pt-BR": "San José",
+            "ru": "Сан-Хосе"
           }
         },
         "continent": {
@@ -307,14 +312,14 @@
           }
         },
         "location": {
-          "accuracy_radius": 1000,
-          "latitude": 39.0469,
-          "longitude": -77.4903,
-          "metro_code": 511,
-          "time_zone": "America/New_York"
+          "accuracy_radius": 200,
+          "latitude": 37.1835,
+          "longitude": -121.7714,
+          "metro_code": 807,
+          "time_zone": "America/Los_Angeles"
         },
         "postal": {
-          "code": "20149"
+          "code": "95141"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -332,15 +337,17 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 6254928,
-            "iso_code": "VA",
+            "geoname_id": 5332921,
+            "iso_code": "CA",
             "names": {
-              "en": "Virginia",
-              "fr": "Virginie",
-              "ja": "バージニア州",
-              "pt-BR": "Virgínia",
-              "ru": "Вирджиния",
-              "zh-CN": "弗吉尼亚州"
+              "de": "Kalifornien",
+              "en": "California",
+              "es": "California",
+              "fr": "Californie",
+              "ja": "カリフォルニア州",
+              "pt-BR": "Califórnia",
+              "ru": "Калифорния",
+              "zh-CN": "加州"
             }
           }
         ]
@@ -348,13 +355,19 @@
     },
     {
       "hostname": "cdn.jsdelivr.net",
-      "ip": "146.75.29.229",
+      "ip": "146.75.93.229",
       "geoip": {
         "city": {
-          "geoname_id": 4744870,
+          "geoname_id": 5368361,
           "names": {
-            "en": "Ashburn",
-            "ru": "Ашберн"
+            "de": "Los Angeles",
+            "en": "Los Angeles",
+            "es": "Los Ángeles",
+            "fr": "Los Angeles",
+            "ja": "ロサンゼルス",
+            "pt-BR": "Los Angeles",
+            "ru": "Лос-Анджелес",
+            "zh-CN": "洛杉矶"
           }
         },
         "continent": {
@@ -387,13 +400,13 @@
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 39.018,
-          "longitude": -77.539,
-          "metro_code": 511,
-          "time_zone": "America/New_York"
+          "latitude": 34.0544,
+          "longitude": -118.244,
+          "metro_code": 803,
+          "time_zone": "America/Los_Angeles"
         },
         "postal": {
-          "code": "20147"
+          "code": "90012"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -411,15 +424,17 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 6254928,
-            "iso_code": "VA",
+            "geoname_id": 5332921,
+            "iso_code": "CA",
             "names": {
-              "en": "Virginia",
-              "fr": "Virginie",
-              "ja": "バージニア州",
-              "pt-BR": "Virgínia",
-              "ru": "Вирджиния",
-              "zh-CN": "弗吉尼亚州"
+              "de": "Kalifornien",
+              "en": "California",
+              "es": "California",
+              "fr": "Californie",
+              "ja": "カリフォルニア州",
+              "pt-BR": "Califórnia",
+              "ru": "Калифорния",
+              "zh-CN": "加州"
             }
           }
         ]
@@ -497,7 +512,7 @@
     },
     {
       "hostname": "cdn.matomo.cloud",
-      "ip": "3.162.125.95",
+      "ip": "99.84.203.54",
       "geoip": {
         "continent": {
           "code": "NA",
