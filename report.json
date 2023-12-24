@@ -9,7 +9,7 @@
     "http": {
       "url": "https://www.multi.coop",
       "algorithm_version": 2,
-      "end_time": "Sun, 17 Dec 2023 00:48:06 GMT",
+      "end_time": "Sun, 24 Dec 2023 00:47:08 GMT",
       "grade": "D+",
       "hidden": false,
       "likelihood_indicator": "MEDIUM",
@@ -20,18 +20,18 @@
         "Cache-Control": "public,max-age=0,must-revalidate",
         "Cache-Status": "\"Netlify Edge\"; fwd=miss",
         "Content-Encoding": "gzip",
-        "Content-Length": "1054",
         "Content-Type": "text/html; charset=UTF-8",
-        "Date": "Sun, 17 Dec 2023 00:48:05 GMT",
-        "Etag": "\"0671994594b63a058f12f9bb30d0270b-ssl-df\"",
+        "Date": "Sun, 24 Dec 2023 00:47:08 GMT",
+        "Etag": "\"b307aa98aecbcd98f92fdfd125ac64bb-ssl-df\"",
         "Server": "Netlify",
         "Strict-Transport-Security": "max-age=31536000",
+        "Transfer-Encoding": "chunked",
         "Vary": "Accept-Encoding",
-        "X-Nf-Request-Id": "01HHTKX5RRX0N1NJBF8S750C5P"
+        "X-Nf-Request-Id": "01HJCMMETV16T3THFQ5PJTYKWZ"
       },
-      "scan_id": 45535711,
+      "scan_id": 45751050,
       "score": 40,
-      "start_time": "Sun, 17 Dec 2023 00:48:04 GMT",
+      "start_time": "Sun, 24 Dec 2023 00:47:06 GMT",
       "state": "FINISHED",
       "status_code": 200,
       "tests_failed": 4,
@@ -549,7 +549,7 @@
         "ip": "www.multi.coop/13.57.148.141",
         "port": "443",
         "severity": "OK",
-        "finding": "79 >= 30 days"
+        "finding": "72 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -745,21 +745,21 @@
         "ip": "www.multi.coop/13.57.148.141",
         "port": "443",
         "severity": "INFO",
-        "finding": "0 seconds from localtime"
+        "finding": "+150 seconds from localtime"
       },
       {
         "id": "HTTP_headerTime",
         "ip": "www.multi.coop/13.57.148.141",
         "port": "443",
         "severity": "INFO",
-        "finding": "1702774123"
+        "finding": "1703378864"
       },
       {
         "id": "HTTP_headerAge",
         "ip": "www.multi.coop/13.57.148.141",
         "port": "443",
         "severity": "INFO",
-        "finding": "0 seconds"
+        "finding": "150 seconds"
       },
       {
         "id": "HSTS_time",
@@ -1671,7 +1671,7 @@
         "ip": "www.multi.coop/50.18.142.31",
         "port": "443",
         "severity": "OK",
-        "finding": "79 >= 30 days"
+        "finding": "72 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -1867,21 +1867,21 @@
         "ip": "www.multi.coop/50.18.142.31",
         "port": "443",
         "severity": "INFO",
-        "finding": "+48 seconds from localtime"
+        "finding": "+181 seconds from localtime"
       },
       {
         "id": "HTTP_headerTime",
         "ip": "www.multi.coop/50.18.142.31",
         "port": "443",
         "severity": "INFO",
-        "finding": "1702774165"
+        "finding": "1703378902"
       },
       {
         "id": "HTTP_headerAge",
         "ip": "www.multi.coop/50.18.142.31",
         "port": "443",
         "severity": "INFO",
-        "finding": "48 seconds"
+        "finding": "181 seconds"
       },
       {
         "id": "HSTS_time",
@@ -2451,7 +2451,7 @@
         "ip": "www.multi.coop/50.18.142.31",
         "port": "443",
         "severity": "INFO",
-        "finding": "85"
+        "finding": "79"
       }
     ],
     "thirdparties": {
@@ -2702,30 +2702,30 @@
         },
         {
           "type": "unknown",
-          "url": "https://multi.matomo.cloud/matomo.php?action_name=multi%20-%20www.multi.coop&idsite=3&rec=1&r=416928&h=0&m=45&s=25&url=https%3A%2F%2Fwww.multi.coop%2F%3Flocale%3Dfr&_id=b6e1dd8f7ee78961&_idn=0&send_image=0&_refts=0&pv_id=PSdzr2&pf_net=298&pf_srv=295&pf_tfr=1&pf_dm1=505&pf_dm2=127&pf_onl=0&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+          "url": "https://multi.matomo.cloud/matomo.php?action_name=multi%20-%20www.multi.coop&idsite=3&rec=1&r=029990&h=0&m=44&s=16&url=https%3A%2F%2Fwww.multi.coop%2F%3Flocale%3Dfr&_id=7287835f5e8ea519&_idn=0&send_image=0&_refts=0&pv_id=SVCeJu&pf_net=300&pf_srv=3&pf_tfr=1&pf_dm1=397&pf_dm2=158&pf_onl=0&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
         }
       ],
       "cookies": [],
       "headers": {
         "accept-ranges": "bytes",
         "access-control-allow-origin": "*",
-        "age": "0",
+        "age": "18214",
         "cache-control": "public,max-age=0,must-revalidate",
-        "cache-status": "\"Netlify Edge\"; fwd=miss",
+        "cache-status": "\"Netlify Edge\"; hit",
         "content-encoding": "br",
         "content-length": "866",
         "content-type": "text/html; charset=UTF-8",
-        "date": "Sun, 17 Dec 2023 00:45:22 GMT",
-        "etag": "\"0671994594b63a058f12f9bb30d0270b-ssl-df\"",
+        "date": "Sun, 24 Dec 2023 00:44:13 GMT",
+        "etag": "\"b307aa98aecbcd98f92fdfd125ac64bb-ssl-df\"",
         "server": "Netlify",
         "strict-transport-security": "max-age=31536000",
         "vary": "Accept-Encoding",
-        "x-nf-request-id": "01HHTKR6DDG90M0XNC633GZ82W"
+        "x-nf-request-id": "01HJCMF4J9Z9KA2V22HV2E6QH6"
       },
       "endpoints": [
         {
           "hostname": "www.multi.coop",
-          "ip": "50.18.215.94",
+          "ip": "13.57.148.141",
           "geoip": {
             "city": {
               "geoname_id": 5392171,
@@ -2768,7 +2768,7 @@
               }
             },
             "location": {
-              "accuracy_radius": 200,
+              "accuracy_radius": 1000,
               "latitude": 37.1835,
               "longitude": -121.7714,
               "metro_code": 807,
@@ -2811,19 +2811,18 @@
         },
         {
           "hostname": "cdn.jsdelivr.net",
-          "ip": "146.75.93.229",
+          "ip": "151.101.41.229",
           "geoip": {
             "city": {
-              "geoname_id": 5368361,
+              "geoname_id": 5392171,
               "names": {
-                "de": "Los Angeles",
-                "en": "Los Angeles",
-                "es": "Los Ángeles",
-                "fr": "Los Angeles",
-                "ja": "ロサンゼルス",
-                "pt-BR": "Los Angeles",
-                "ru": "Лос-Анджелес",
-                "zh-CN": "洛杉矶"
+                "de": "San José",
+                "en": "San Jose",
+                "es": "San José",
+                "fr": "San José",
+                "ja": "サンノゼ",
+                "pt-BR": "San José",
+                "ru": "Сан-Хосе"
               }
             },
             "continent": {
@@ -2856,13 +2855,13 @@
             },
             "location": {
               "accuracy_radius": 20,
-              "latitude": 34.0544,
-              "longitude": -118.244,
-              "metro_code": 803,
+              "latitude": 37.1835,
+              "longitude": -121.7714,
+              "metro_code": 807,
               "time_zone": "America/Los_Angeles"
             },
             "postal": {
-              "code": "90012"
+              "code": "95141"
             },
             "registered_country": {
               "geoname_id": 6252001,
@@ -2898,7 +2897,7 @@
         },
         {
           "hostname": "raw.githubusercontent.com",
-          "ip": "185.199.109.133",
+          "ip": "185.199.108.133",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -2968,7 +2967,7 @@
         },
         {
           "hostname": "cdn.matomo.cloud",
-          "ip": "99.84.203.54",
+          "ip": "13.227.74.52",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -3022,7 +3021,7 @@
         },
         {
           "hostname": "multi.matomo.cloud",
-          "ip": "18.157.122.248",
+          "ip": "3.126.133.169",
           "geoip": {
             "city": {
               "geoname_id": 2925533,
@@ -3280,7 +3279,7 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.14.0",
-      "@generated": "Sun, 17 Dec 2023 00:47:39",
+      "@generated": "Sun, 24 Dec 2023 00:46:40",
       "site": [
         {
           "@name": "https://www.multi.coop",
@@ -4565,7 +4564,7 @@
       {
         "requestedUrl": "https://www.multi.coop/",
         "finalUrl": "https://www.multi.coop/",
-        "fetchTime": "2023-12-17T00:47:54.328Z",
+        "fetchTime": "2023-12-24T00:46:55.609Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -4576,7 +4575,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.7111749649047852
+            "score": 0.7111021041870117
           },
           "accessibility": {
             "title": "Accessibility",
@@ -4628,53 +4627,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 9222,
+            "numericValue": 9355,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 5064,
-                  "firstMeaningfulPaint": 5064,
-                  "largestContentfulPaint": 9337,
-                  "interactive": 9222,
-                  "speedIndex": 5064,
-                  "totalBlockingTime": 635,
-                  "maxPotentialFID": 339,
+                  "firstContentfulPaint": 5147,
+                  "firstMeaningfulPaint": 5147,
+                  "largestContentfulPaint": 9431,
+                  "interactive": 9355,
+                  "speedIndex": 5147,
+                  "totalBlockingTime": 643,
+                  "maxPotentialFID": 341,
                   "cumulativeLayoutShift": 0.5009248373243543,
                   "cumulativeLayoutShiftMainFrame": 0.5009248373243543,
                   "totalCumulativeLayoutShift": 0.5009248373243543,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 388932206,
+                  "observedTimeOriginTs": 409167087,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 388932206,
-                  "observedFirstPaint": 498,
-                  "observedFirstPaintTs": 389430332,
-                  "observedFirstContentfulPaint": 498,
-                  "observedFirstContentfulPaintTs": 389430332,
-                  "observedFirstContentfulPaintAllFrames": 498,
-                  "observedFirstContentfulPaintAllFramesTs": 389430332,
-                  "observedFirstMeaningfulPaint": 498,
-                  "observedFirstMeaningfulPaintTs": 389430332,
-                  "observedLargestContentfulPaint": 633,
-                  "observedLargestContentfulPaintTs": 389565393,
-                  "observedLargestContentfulPaintAllFrames": 633,
-                  "observedLargestContentfulPaintAllFramesTs": 389565393,
-                  "observedTraceEnd": 2970,
-                  "observedTraceEndTs": 391901727,
-                  "observedLoad": 342,
-                  "observedLoadTs": 389274457,
-                  "observedDomContentLoaded": 323,
-                  "observedDomContentLoadedTs": 389255538,
+                  "observedNavigationStartTs": 409167087,
+                  "observedFirstPaint": 1067,
+                  "observedFirstPaintTs": 410234382,
+                  "observedFirstContentfulPaint": 1067,
+                  "observedFirstContentfulPaintTs": 410234382,
+                  "observedFirstContentfulPaintAllFrames": 1067,
+                  "observedFirstContentfulPaintAllFramesTs": 410234382,
+                  "observedFirstMeaningfulPaint": 1067,
+                  "observedFirstMeaningfulPaintTs": 410234382,
+                  "observedLargestContentfulPaint": 1351,
+                  "observedLargestContentfulPaintTs": 410517841,
+                  "observedLargestContentfulPaintAllFrames": 1351,
+                  "observedLargestContentfulPaintAllFramesTs": 410517841,
+                  "observedTraceEnd": 3671,
+                  "observedTraceEndTs": 412838563,
+                  "observedLoad": 489,
+                  "observedLoadTs": 409656390,
+                  "observedDomContentLoaded": 421,
+                  "observedDomContentLoadedTs": 409588265,
                   "observedCumulativeLayoutShift": 0.5009248373243543,
                   "observedCumulativeLayoutShiftMainFrame": 0.5009248373243543,
                   "observedTotalCumulativeLayoutShift": 0.5009248373243543,
-                  "observedFirstVisualChange": 502,
-                  "observedFirstVisualChangeTs": 389434206,
-                  "observedLastVisualChange": 1102,
-                  "observedLastVisualChangeTs": 390034206,
-                  "observedSpeedIndex": 591,
-                  "observedSpeedIndexTs": 389523085
+                  "observedFirstVisualChange": 1066,
+                  "observedFirstVisualChangeTs": 410233087,
+                  "observedLastVisualChange": 1683,
+                  "observedLastVisualChangeTs": 410850087,
+                  "observedSpeedIndex": 1227,
+                  "observedSpeedIndexTs": 410393917
                 },
                 {
                   "lcpInvalidated": false
@@ -4696,19 +4695,19 @@
                   "numScripts": 8,
                   "numStylesheets": 1,
                   "numFonts": 1,
-                  "numTasks": 559,
-                  "numTasksOver10ms": 6,
-                  "numTasksOver25ms": 3,
-                  "numTasksOver50ms": 3,
+                  "numTasks": 578,
+                  "numTasksOver10ms": 10,
+                  "numTasksOver25ms": 4,
+                  "numTasksOver50ms": 2,
                   "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
                   "rtt": 0,
-                  "throughput": 130212935.67724815,
-                  "maxRtt": 139.47000000000003,
-                  "maxServerLatency": 17.576999999999998,
-                  "totalByteWeight": 2562851,
-                  "totalTaskTime": 409.2049999999991,
-                  "mainDocumentTransferSize": 1110
+                  "throughput": 192755083.04889145,
+                  "maxRtt": 157.65300000000002,
+                  "maxServerLatency": 73.488,
+                  "totalByteWeight": 2563233,
+                  "totalTaskTime": 426.9359999999995,
+                  "mainDocumentTransferSize": 1157
                 }
               ]
             }
@@ -4730,7 +4729,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.multi.coop",
-        "size": 4426.125,
+        "size": 4425.988,
         "nodes": 433,
         "requests": 42,
         "grade": "C",
@@ -4738,7 +4737,7 @@
         "ges": 1.82,
         "water": 2.73,
         "ecoindex_version": "5.4.2",
-        "date": "2023-12-17 00:46:20.914755",
+        "date": "2023-12-24 00:45:13.168879",
         "page_type": null
       }
     ],
@@ -4753,7 +4752,7 @@
       "cookiesCount": 0,
       "trackersGrade": "F",
       "trackersCount": 32,
-      "lighthouse_performance": 0.7111749649047852,
+      "lighthouse_performance": 0.7111021041870117,
       "lighthouse_performanceGrade": "B",
       "lighthouse_accessibility": 0.86,
       "lighthouse_accessibilityGrade": "A",
@@ -4777,7 +4776,7 @@
     "http": {
       "url": "https://www.multi.coop",
       "algorithm_version": 2,
-      "end_time": "Sun, 17 Dec 2023 00:48:06 GMT",
+      "end_time": "Sun, 24 Dec 2023 00:47:08 GMT",
       "grade": "D+",
       "hidden": false,
       "likelihood_indicator": "MEDIUM",
@@ -4788,18 +4787,18 @@
         "Cache-Control": "public,max-age=0,must-revalidate",
         "Cache-Status": "\"Netlify Edge\"; fwd=miss",
         "Content-Encoding": "gzip",
-        "Content-Length": "1054",
         "Content-Type": "text/html; charset=UTF-8",
-        "Date": "Sun, 17 Dec 2023 00:48:05 GMT",
-        "Etag": "\"0671994594b63a058f12f9bb30d0270b-ssl-df\"",
+        "Date": "Sun, 24 Dec 2023 00:47:08 GMT",
+        "Etag": "\"b307aa98aecbcd98f92fdfd125ac64bb-ssl-df\"",
         "Server": "Netlify",
         "Strict-Transport-Security": "max-age=31536000",
+        "Transfer-Encoding": "chunked",
         "Vary": "Accept-Encoding",
-        "X-Nf-Request-Id": "01HHTKX5RRX0N1NJBF8S750C5P"
+        "X-Nf-Request-Id": "01HJCMMETV16T3THFQ5PJTYKWZ"
       },
-      "scan_id": 45535711,
+      "scan_id": 45751050,
       "score": 40,
-      "start_time": "Sun, 17 Dec 2023 00:48:04 GMT",
+      "start_time": "Sun, 24 Dec 2023 00:47:06 GMT",
       "state": "FINISHED",
       "status_code": 200,
       "tests_failed": 4,
@@ -5317,7 +5316,7 @@
         "ip": "www.multi.coop/13.57.148.141",
         "port": "443",
         "severity": "OK",
-        "finding": "79 >= 30 days"
+        "finding": "72 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -5513,21 +5512,21 @@
         "ip": "www.multi.coop/13.57.148.141",
         "port": "443",
         "severity": "INFO",
-        "finding": "0 seconds from localtime"
+        "finding": "+150 seconds from localtime"
       },
       {
         "id": "HTTP_headerTime",
         "ip": "www.multi.coop/13.57.148.141",
         "port": "443",
         "severity": "INFO",
-        "finding": "1702774123"
+        "finding": "1703378864"
       },
       {
         "id": "HTTP_headerAge",
         "ip": "www.multi.coop/13.57.148.141",
         "port": "443",
         "severity": "INFO",
-        "finding": "0 seconds"
+        "finding": "150 seconds"
       },
       {
         "id": "HSTS_time",
@@ -6439,7 +6438,7 @@
         "ip": "www.multi.coop/50.18.142.31",
         "port": "443",
         "severity": "OK",
-        "finding": "79 >= 30 days"
+        "finding": "72 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -6635,21 +6634,21 @@
         "ip": "www.multi.coop/50.18.142.31",
         "port": "443",
         "severity": "INFO",
-        "finding": "+48 seconds from localtime"
+        "finding": "+181 seconds from localtime"
       },
       {
         "id": "HTTP_headerTime",
         "ip": "www.multi.coop/50.18.142.31",
         "port": "443",
         "severity": "INFO",
-        "finding": "1702774165"
+        "finding": "1703378902"
       },
       {
         "id": "HTTP_headerAge",
         "ip": "www.multi.coop/50.18.142.31",
         "port": "443",
         "severity": "INFO",
-        "finding": "48 seconds"
+        "finding": "181 seconds"
       },
       {
         "id": "HSTS_time",
@@ -7219,7 +7218,7 @@
         "ip": "www.multi.coop/50.18.142.31",
         "port": "443",
         "severity": "INFO",
-        "finding": "85"
+        "finding": "79"
       }
     ],
     "thirdparties": {
@@ -7470,30 +7469,30 @@
         },
         {
           "type": "unknown",
-          "url": "https://multi.matomo.cloud/matomo.php?action_name=multi%20-%20www.multi.coop&idsite=3&rec=1&r=416928&h=0&m=45&s=25&url=https%3A%2F%2Fwww.multi.coop%2F%3Flocale%3Dfr&_id=b6e1dd8f7ee78961&_idn=0&send_image=0&_refts=0&pv_id=PSdzr2&pf_net=298&pf_srv=295&pf_tfr=1&pf_dm1=505&pf_dm2=127&pf_onl=0&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+          "url": "https://multi.matomo.cloud/matomo.php?action_name=multi%20-%20www.multi.coop&idsite=3&rec=1&r=029990&h=0&m=44&s=16&url=https%3A%2F%2Fwww.multi.coop%2F%3Flocale%3Dfr&_id=7287835f5e8ea519&_idn=0&send_image=0&_refts=0&pv_id=SVCeJu&pf_net=300&pf_srv=3&pf_tfr=1&pf_dm1=397&pf_dm2=158&pf_onl=0&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
         }
       ],
       "cookies": [],
       "headers": {
         "accept-ranges": "bytes",
         "access-control-allow-origin": "*",
-        "age": "0",
+        "age": "18214",
         "cache-control": "public,max-age=0,must-revalidate",
-        "cache-status": "\"Netlify Edge\"; fwd=miss",
+        "cache-status": "\"Netlify Edge\"; hit",
         "content-encoding": "br",
         "content-length": "866",
         "content-type": "text/html; charset=UTF-8",
-        "date": "Sun, 17 Dec 2023 00:45:22 GMT",
-        "etag": "\"0671994594b63a058f12f9bb30d0270b-ssl-df\"",
+        "date": "Sun, 24 Dec 2023 00:44:13 GMT",
+        "etag": "\"b307aa98aecbcd98f92fdfd125ac64bb-ssl-df\"",
         "server": "Netlify",
         "strict-transport-security": "max-age=31536000",
         "vary": "Accept-Encoding",
-        "x-nf-request-id": "01HHTKR6DDG90M0XNC633GZ82W"
+        "x-nf-request-id": "01HJCMF4J9Z9KA2V22HV2E6QH6"
       },
       "endpoints": [
         {
           "hostname": "www.multi.coop",
-          "ip": "50.18.215.94",
+          "ip": "13.57.148.141",
           "geoip": {
             "city": {
               "geoname_id": 5392171,
@@ -7536,7 +7535,7 @@
               }
             },
             "location": {
-              "accuracy_radius": 200,
+              "accuracy_radius": 1000,
               "latitude": 37.1835,
               "longitude": -121.7714,
               "metro_code": 807,
@@ -7579,19 +7578,18 @@
         },
         {
           "hostname": "cdn.jsdelivr.net",
-          "ip": "146.75.93.229",
+          "ip": "151.101.41.229",
           "geoip": {
             "city": {
-              "geoname_id": 5368361,
+              "geoname_id": 5392171,
               "names": {
-                "de": "Los Angeles",
-                "en": "Los Angeles",
-                "es": "Los Ángeles",
-                "fr": "Los Angeles",
-                "ja": "ロサンゼルス",
-                "pt-BR": "Los Angeles",
-                "ru": "Лос-Анджелес",
-                "zh-CN": "洛杉矶"
+                "de": "San José",
+                "en": "San Jose",
+                "es": "San José",
+                "fr": "San José",
+                "ja": "サンノゼ",
+                "pt-BR": "San José",
+                "ru": "Сан-Хосе"
               }
             },
             "continent": {
@@ -7624,13 +7622,13 @@
             },
             "location": {
               "accuracy_radius": 20,
-              "latitude": 34.0544,
-              "longitude": -118.244,
-              "metro_code": 803,
+              "latitude": 37.1835,
+              "longitude": -121.7714,
+              "metro_code": 807,
               "time_zone": "America/Los_Angeles"
             },
             "postal": {
-              "code": "90012"
+              "code": "95141"
             },
             "registered_country": {
               "geoname_id": 6252001,
@@ -7666,7 +7664,7 @@
         },
         {
           "hostname": "raw.githubusercontent.com",
-          "ip": "185.199.109.133",
+          "ip": "185.199.108.133",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -7736,7 +7734,7 @@
         },
         {
           "hostname": "cdn.matomo.cloud",
-          "ip": "99.84.203.54",
+          "ip": "13.227.74.52",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -7790,7 +7788,7 @@
         },
         {
           "hostname": "multi.matomo.cloud",
-          "ip": "18.157.122.248",
+          "ip": "3.126.133.169",
           "geoip": {
             "city": {
               "geoname_id": 2925533,
@@ -8048,7 +8046,7 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.14.0",
-      "@generated": "Sun, 17 Dec 2023 00:47:39",
+      "@generated": "Sun, 24 Dec 2023 00:46:40",
       "site": [
         {
           "@name": "https://www.multi.coop",
@@ -9333,7 +9331,7 @@
       {
         "requestedUrl": "https://www.multi.coop/",
         "finalUrl": "https://www.multi.coop/",
-        "fetchTime": "2023-12-17T00:47:54.328Z",
+        "fetchTime": "2023-12-24T00:46:55.609Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -9344,7 +9342,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.7111749649047852
+            "score": 0.7111021041870117
           },
           "accessibility": {
             "title": "Accessibility",
@@ -9396,53 +9394,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 9222,
+            "numericValue": 9355,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 5064,
-                  "firstMeaningfulPaint": 5064,
-                  "largestContentfulPaint": 9337,
-                  "interactive": 9222,
-                  "speedIndex": 5064,
-                  "totalBlockingTime": 635,
-                  "maxPotentialFID": 339,
+                  "firstContentfulPaint": 5147,
+                  "firstMeaningfulPaint": 5147,
+                  "largestContentfulPaint": 9431,
+                  "interactive": 9355,
+                  "speedIndex": 5147,
+                  "totalBlockingTime": 643,
+                  "maxPotentialFID": 341,
                   "cumulativeLayoutShift": 0.5009248373243543,
                   "cumulativeLayoutShiftMainFrame": 0.5009248373243543,
                   "totalCumulativeLayoutShift": 0.5009248373243543,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 388932206,
+                  "observedTimeOriginTs": 409167087,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 388932206,
-                  "observedFirstPaint": 498,
-                  "observedFirstPaintTs": 389430332,
-                  "observedFirstContentfulPaint": 498,
-                  "observedFirstContentfulPaintTs": 389430332,
-                  "observedFirstContentfulPaintAllFrames": 498,
-                  "observedFirstContentfulPaintAllFramesTs": 389430332,
-                  "observedFirstMeaningfulPaint": 498,
-                  "observedFirstMeaningfulPaintTs": 389430332,
-                  "observedLargestContentfulPaint": 633,
-                  "observedLargestContentfulPaintTs": 389565393,
-                  "observedLargestContentfulPaintAllFrames": 633,
-                  "observedLargestContentfulPaintAllFramesTs": 389565393,
-                  "observedTraceEnd": 2970,
-                  "observedTraceEndTs": 391901727,
-                  "observedLoad": 342,
-                  "observedLoadTs": 389274457,
-                  "observedDomContentLoaded": 323,
-                  "observedDomContentLoadedTs": 389255538,
+                  "observedNavigationStartTs": 409167087,
+                  "observedFirstPaint": 1067,
+                  "observedFirstPaintTs": 410234382,
+                  "observedFirstContentfulPaint": 1067,
+                  "observedFirstContentfulPaintTs": 410234382,
+                  "observedFirstContentfulPaintAllFrames": 1067,
+                  "observedFirstContentfulPaintAllFramesTs": 410234382,
+                  "observedFirstMeaningfulPaint": 1067,
+                  "observedFirstMeaningfulPaintTs": 410234382,
+                  "observedLargestContentfulPaint": 1351,
+                  "observedLargestContentfulPaintTs": 410517841,
+                  "observedLargestContentfulPaintAllFrames": 1351,
+                  "observedLargestContentfulPaintAllFramesTs": 410517841,
+                  "observedTraceEnd": 3671,
+                  "observedTraceEndTs": 412838563,
+                  "observedLoad": 489,
+                  "observedLoadTs": 409656390,
+                  "observedDomContentLoaded": 421,
+                  "observedDomContentLoadedTs": 409588265,
                   "observedCumulativeLayoutShift": 0.5009248373243543,
                   "observedCumulativeLayoutShiftMainFrame": 0.5009248373243543,
                   "observedTotalCumulativeLayoutShift": 0.5009248373243543,
-                  "observedFirstVisualChange": 502,
-                  "observedFirstVisualChangeTs": 389434206,
-                  "observedLastVisualChange": 1102,
-                  "observedLastVisualChangeTs": 390034206,
-                  "observedSpeedIndex": 591,
-                  "observedSpeedIndexTs": 389523085
+                  "observedFirstVisualChange": 1066,
+                  "observedFirstVisualChangeTs": 410233087,
+                  "observedLastVisualChange": 1683,
+                  "observedLastVisualChangeTs": 410850087,
+                  "observedSpeedIndex": 1227,
+                  "observedSpeedIndexTs": 410393917
                 },
                 {
                   "lcpInvalidated": false
@@ -9464,19 +9462,19 @@
                   "numScripts": 8,
                   "numStylesheets": 1,
                   "numFonts": 1,
-                  "numTasks": 559,
-                  "numTasksOver10ms": 6,
-                  "numTasksOver25ms": 3,
-                  "numTasksOver50ms": 3,
+                  "numTasks": 578,
+                  "numTasksOver10ms": 10,
+                  "numTasksOver25ms": 4,
+                  "numTasksOver50ms": 2,
                   "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
                   "rtt": 0,
-                  "throughput": 130212935.67724815,
-                  "maxRtt": 139.47000000000003,
-                  "maxServerLatency": 17.576999999999998,
-                  "totalByteWeight": 2562851,
-                  "totalTaskTime": 409.2049999999991,
-                  "mainDocumentTransferSize": 1110
+                  "throughput": 192755083.04889145,
+                  "maxRtt": 157.65300000000002,
+                  "maxServerLatency": 73.488,
+                  "totalByteWeight": 2563233,
+                  "totalTaskTime": 426.9359999999995,
+                  "mainDocumentTransferSize": 1157
                 }
               ]
             }
@@ -9498,7 +9496,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.multi.coop",
-        "size": 4426.125,
+        "size": 4425.988,
         "nodes": 433,
         "requests": 42,
         "grade": "C",
@@ -9506,7 +9504,7 @@
         "ges": 1.82,
         "water": 2.73,
         "ecoindex_version": "5.4.2",
-        "date": "2023-12-17 00:46:20.914755",
+        "date": "2023-12-24 00:45:13.168879",
         "page_type": null
       }
     ],
@@ -9521,7 +9519,7 @@
       "cookiesCount": 0,
       "trackersGrade": "F",
       "trackersCount": 32,
-      "lighthouse_performance": 0.7111749649047852,
+      "lighthouse_performance": 0.7111021041870117,
       "lighthouse_performanceGrade": "B",
       "lighthouse_accessibility": 0.86,
       "lighthouse_accessibilityGrade": "A",
