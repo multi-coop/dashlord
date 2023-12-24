@@ -346,7 +346,7 @@
               "ip"           : "www.multi.coop/13.57.148.141",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "79 >= 30 days"
+              "finding"      : "72 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -542,21 +542,21 @@
               "ip"           : "www.multi.coop/13.57.148.141",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 seconds from localtime"
+              "finding"      : "+150 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "www.multi.coop/13.57.148.141",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1702774123"
+              "finding"      : "1703378864"
           }
 ,         {
               "id"           : "HTTP_headerAge",
               "ip"           : "www.multi.coop/13.57.148.141",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 seconds"
+              "finding"      : "150 seconds"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1468,7 +1468,7 @@
               "ip"           : "www.multi.coop/50.18.142.31",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "79 >= 30 days"
+              "finding"      : "72 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -1664,21 +1664,21 @@
               "ip"           : "www.multi.coop/50.18.142.31",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "+48 seconds from localtime"
+              "finding"      : "+181 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "www.multi.coop/50.18.142.31",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1702774165"
+              "finding"      : "1703378902"
           }
 ,         {
               "id"           : "HTTP_headerAge",
               "ip"           : "www.multi.coop/50.18.142.31",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "48 seconds"
+              "finding"      : "181 seconds"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -2248,6 +2248,6 @@
               "ip"           : "www.multi.coop/50.18.142.31",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "85"
+              "finding"      : "79"
           }
 ]
