@@ -246,30 +246,30 @@
     },
     {
       "type": "unknown",
-      "url": "https://multi.matomo.cloud/matomo.php?action_name=multi%20-%20www.multi.coop&idsite=3&rec=1&r=689651&h=0&m=46&s=33&url=https%3A%2F%2Fwww.multi.coop%2F%3Flocale%3Dfr&_id=6e286c15266615b5&_idn=0&send_image=0&_refts=0&pv_id=mXOdcR&pf_net=418&pf_srv=18&pf_tfr=1&pf_dm1=274&pf_dm2=130&pf_onl=0&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+      "url": "https://multi.matomo.cloud/matomo.php?action_name=multi%20-%20www.multi.coop&idsite=3&rec=1&r=675272&h=0&m=42&s=27&url=https%3A%2F%2Fwww.multi.coop%2F%3Flocale%3Dfr&_id=534642e025e85695&_idn=0&send_image=0&_refts=0&pv_id=2zh4Lq&pf_net=143&pf_srv=72&pf_tfr=1&pf_dm1=367&pf_dm2=150&pf_onl=0&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
     }
   ],
   "cookies": [],
   "headers": {
     "accept-ranges": "bytes",
     "access-control-allow-origin": "*",
-    "age": "98423",
+    "age": "0",
     "cache-control": "public,max-age=0,must-revalidate",
-    "cache-status": "\"Netlify Edge\"; hit",
+    "cache-status": "\"Netlify Edge\"; fwd=miss",
     "content-encoding": "br",
-    "content-length": "866",
+    "content-length": "864",
     "content-type": "text/html; charset=UTF-8",
-    "date": "Sun, 21 Jan 2024 00:46:31 GMT",
-    "etag": "\"b307aa98aecbcd98f92fdfd125ac64bb-ssl-df\"",
+    "date": "Sun, 28 Jan 2024 00:42:25 GMT",
+    "etag": "\"8ad3896cf99314d2bfbd7e870780abd0-ssl-df\"",
     "server": "Netlify",
     "strict-transport-security": "max-age=31536000",
     "vary": "Accept-Encoding",
-    "x-nf-request-id": "01HMMQQES4CG06FCB155JH9PGX"
+    "x-nf-request-id": "01HN6R8ZH3VKXYJ8Q4FGKK5W17"
   },
   "endpoints": [
     {
       "hostname": "www.multi.coop",
-      "ip": "52.9.166.110",
+      "ip": "50.18.142.31",
       "geoip": {
         "city": {
           "geoname_id": 5392171,
@@ -312,7 +312,7 @@
           }
         },
         "location": {
-          "accuracy_radius": 500,
+          "accuracy_radius": 1000,
           "latitude": 37.1835,
           "longitude": -121.7714,
           "metro_code": 807,
@@ -355,19 +355,18 @@
     },
     {
       "hostname": "cdn.jsdelivr.net",
-      "ip": "146.75.93.229",
+      "ip": "151.101.41.229",
       "geoip": {
         "city": {
-          "geoname_id": 5368361,
+          "geoname_id": 5392171,
           "names": {
-            "de": "Los Angeles",
-            "en": "Los Angeles",
-            "es": "Los Ángeles",
-            "fr": "Los Angeles",
-            "ja": "ロサンゼルス",
-            "pt-BR": "Los Angeles",
-            "ru": "Лос-Анджелес",
-            "zh-CN": "洛杉矶"
+            "de": "San José",
+            "en": "San Jose",
+            "es": "San José",
+            "fr": "San José",
+            "ja": "サンノゼ",
+            "pt-BR": "San José",
+            "ru": "Сан-Хосе"
           }
         },
         "continent": {
@@ -400,13 +399,13 @@
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 34.0544,
-          "longitude": -118.244,
-          "metro_code": 803,
+          "latitude": 37.1835,
+          "longitude": -121.7714,
+          "metro_code": 807,
           "time_zone": "America/Los_Angeles"
         },
         "postal": {
-          "code": "90012"
+          "code": "95141"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -442,7 +441,7 @@
     },
     {
       "hostname": "raw.githubusercontent.com",
-      "ip": "185.199.108.133",
+      "ip": "185.199.111.133",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -512,7 +511,7 @@
     },
     {
       "hostname": "cdn.matomo.cloud",
-      "ip": "18.65.3.70",
+      "ip": "13.227.74.56",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -566,7 +565,7 @@
     },
     {
       "hostname": "multi.matomo.cloud",
-      "ip": "3.126.133.169",
+      "ip": "18.195.235.189",
       "geoip": {
         "city": {
           "geoname_id": 2925533,
