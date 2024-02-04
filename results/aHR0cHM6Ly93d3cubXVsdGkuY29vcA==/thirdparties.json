@@ -110,14 +110,6 @@
     },
     {
       "type": "github",
-      "url": "https://raw.githubusercontent.com/multi-coop/multi-site-contents/julien-update-colors/images/logos/logo-MULTI-colored-063442-02.png",
-      "details": {
-        "id": "github",
-        "message": "Dont link GitHub ressources, host them directly"
-      }
-    },
-    {
-      "type": "github",
       "url": "https://raw.githubusercontent.com/multi-coop/multi-site-contents/main/images/clients/odf-logo.svg",
       "details": {
         "id": "github",
@@ -245,8 +237,16 @@
       }
     },
     {
+      "type": "github",
+      "url": "https://raw.githubusercontent.com/multi-coop/multi-site-contents/julien-update-colors/images/logos/logo-MULTI-colored-063442-02.png",
+      "details": {
+        "id": "github",
+        "message": "Dont link GitHub ressources, host them directly"
+      }
+    },
+    {
       "type": "unknown",
-      "url": "https://multi.matomo.cloud/matomo.php?action_name=multi%20-%20www.multi.coop&idsite=3&rec=1&r=675272&h=0&m=42&s=27&url=https%3A%2F%2Fwww.multi.coop%2F%3Flocale%3Dfr&_id=534642e025e85695&_idn=0&send_image=0&_refts=0&pv_id=2zh4Lq&pf_net=143&pf_srv=72&pf_tfr=1&pf_dm1=367&pf_dm2=150&pf_onl=0&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+      "url": "https://multi.matomo.cloud/matomo.php?action_name=multi%20-%20www.multi.coop&idsite=3&rec=1&r=881461&h=0&m=43&s=6&url=https%3A%2F%2Fwww.multi.coop%2F%3Flocale%3Dfr&_id=872e6d1b4ba807d1&_idn=0&send_image=0&_refts=0&pv_id=J14zTV&pf_net=208&pf_srv=72&pf_tfr=1&pf_dm1=200&pf_dm2=9&pf_onl=0&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
     }
   ],
   "cookies": [],
@@ -257,19 +257,18 @@
     "cache-control": "public,max-age=0,must-revalidate",
     "cache-status": "\"Netlify Edge\"; fwd=miss",
     "content-encoding": "br",
-    "content-length": "864",
     "content-type": "text/html; charset=UTF-8",
-    "date": "Sun, 28 Jan 2024 00:42:25 GMT",
-    "etag": "\"8ad3896cf99314d2bfbd7e870780abd0-ssl-df\"",
+    "date": "Sun, 04 Feb 2024 00:43:04 GMT",
+    "etag": "\"428d363499b11a95a609f86a0aed1494-ssl-df\"",
     "server": "Netlify",
     "strict-transport-security": "max-age=31536000",
     "vary": "Accept-Encoding",
-    "x-nf-request-id": "01HN6R8ZH3VKXYJ8Q4FGKK5W17"
+    "x-nf-request-id": "01HNRS36N6N4HQNWNCH36ZSDQS"
   },
   "endpoints": [
     {
       "hostname": "www.multi.coop",
-      "ip": "50.18.142.31",
+      "ip": "50.18.215.94",
       "geoip": {
         "city": {
           "geoname_id": 5392171,
@@ -355,18 +354,19 @@
     },
     {
       "hostname": "cdn.jsdelivr.net",
-      "ip": "151.101.41.229",
+      "ip": "151.101.201.229",
       "geoip": {
         "city": {
-          "geoname_id": 5392171,
+          "geoname_id": 5393015,
           "names": {
-            "de": "San José",
-            "en": "San Jose",
-            "es": "San José",
-            "fr": "San José",
-            "ja": "サンノゼ",
-            "pt-BR": "San José",
-            "ru": "Сан-Хосе"
+            "de": "Santa Clara",
+            "en": "Santa Clara",
+            "es": "Santa Clara",
+            "fr": "Santa Clara",
+            "ja": "サンタクララ",
+            "pt-BR": "Santa Clara",
+            "ru": "Санта-Клара",
+            "zh-CN": "圣克拉拉"
           }
         },
         "continent": {
@@ -399,13 +399,13 @@
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 37.1835,
-          "longitude": -121.7714,
+          "latitude": 37.3931,
+          "longitude": -121.962,
           "metro_code": 807,
           "time_zone": "America/Los_Angeles"
         },
         "postal": {
-          "code": "95141"
+          "code": "95054"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -441,7 +441,7 @@
     },
     {
       "hostname": "raw.githubusercontent.com",
-      "ip": "185.199.111.133",
+      "ip": "185.199.109.133",
       "geoip": {
         "continent": {
           "code": "NA",
