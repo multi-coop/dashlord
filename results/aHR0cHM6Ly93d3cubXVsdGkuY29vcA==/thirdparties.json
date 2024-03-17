@@ -246,30 +246,30 @@
     },
     {
       "type": "unknown",
-      "url": "https://multi.matomo.cloud/matomo.php?action_name=multi%20-%20www.multi.coop&idsite=3&rec=1&r=351012&h=0&m=42&s=46&url=https%3A%2F%2Fwww.multi.coop%2F%3Flocale%3Dfr&_id=0ee97074b2ce6975&_idn=0&send_image=0&_refts=0&pv_id=4OGMdM&pf_net=298&pf_srv=4&pf_tfr=1&pf_dm1=351&pf_dm2=15&pf_onl=0&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+      "url": "https://multi.matomo.cloud/matomo.php?action_name=multi%20-%20www.multi.coop&idsite=3&rec=1&r=290587&h=0&m=42&s=37&url=https%3A%2F%2Fwww.multi.coop%2F%3Flocale%3Dfr&_id=3400a7ecdd0850f3&_idn=0&send_image=0&_refts=0&pv_id=DVf6ls&pf_net=392&pf_srv=27&pf_tfr=1&pf_dm1=404&pf_dm2=91&pf_onl=0&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
     }
   ],
   "cookies": [],
   "headers": {
     "accept-ranges": "bytes",
     "access-control-allow-origin": "*",
-    "age": "62280",
+    "age": "29655",
     "cache-control": "public,max-age=0,must-revalidate",
     "cache-status": "\"Netlify Edge\"; hit",
     "content-encoding": "br",
-    "content-length": "910",
+    "content-length": "865",
     "content-type": "text/html; charset=UTF-8",
-    "date": "Sun, 10 Mar 2024 00:42:44 GMT",
+    "date": "Sun, 17 Mar 2024 00:42:35 GMT",
     "etag": "\"b53da8c919a7d82221565453c260f50b-ssl-df\"",
     "server": "Netlify",
     "strict-transport-security": "max-age=31536000",
     "vary": "Accept-Encoding",
-    "x-nf-request-id": "01HRJWZRHH9R7FW3YJPR9E6QFD"
+    "x-nf-request-id": "01HS4XRGE4CH99V92V1EJK8CAS"
   },
   "endpoints": [
     {
       "hostname": "www.multi.coop",
-      "ip": "44.217.161.11",
+      "ip": "44.219.53.183",
       "geoip": {
         "city": {
           "geoname_id": 4744870,
@@ -307,7 +307,7 @@
           }
         },
         "location": {
-          "accuracy_radius": 100,
+          "accuracy_radius": 1000,
           "latitude": 39.0469,
           "longitude": -77.4903,
           "metro_code": 511,
@@ -348,15 +348,19 @@
     },
     {
       "hostname": "cdn.jsdelivr.net",
-      "ip": "146.75.37.229",
+      "ip": "146.75.77.229",
       "geoip": {
         "city": {
-          "geoname_id": 4781530,
+          "geoname_id": 4887398,
           "names": {
-            "de": "Reston",
-            "en": "Reston",
-            "ja": "レストン",
-            "ru": "Рестон"
+            "de": "Chicago",
+            "en": "Chicago",
+            "es": "Chicago",
+            "fr": "Chicago",
+            "ja": "シカゴ",
+            "pt-BR": "Chicago",
+            "ru": "Чикаго",
+            "zh-CN": "芝加哥"
           }
         },
         "continent": {
@@ -389,13 +393,13 @@
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 38.9609,
-          "longitude": -77.3429,
-          "metro_code": 511,
-          "time_zone": "America/New_York"
+          "latitude": 41.8719,
+          "longitude": -87.6589,
+          "metro_code": 602,
+          "time_zone": "America/Chicago"
         },
         "postal": {
-          "code": "20190"
+          "code": "60607"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -413,15 +417,16 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 6254928,
-            "iso_code": "VA",
+            "geoname_id": 4896861,
+            "iso_code": "IL",
             "names": {
-              "en": "Virginia",
-              "fr": "Virginie",
-              "ja": "バージニア州",
-              "pt-BR": "Virgínia",
-              "ru": "Вирджиния",
-              "zh-CN": "弗吉尼亚州"
+              "en": "Illinois",
+              "es": "Illinois",
+              "fr": "Illinois",
+              "ja": "イリノイ州",
+              "pt-BR": "Ilinóis",
+              "ru": "Иллинойс",
+              "zh-CN": "伊利诺伊州"
             }
           }
         ]
@@ -499,7 +504,7 @@
     },
     {
       "hostname": "cdn.matomo.cloud",
-      "ip": "3.162.125.8",
+      "ip": "18.67.17.107",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -553,7 +558,7 @@
     },
     {
       "hostname": "multi.matomo.cloud",
-      "ip": "3.126.133.169",
+      "ip": "18.195.235.189",
       "geoip": {
         "city": {
           "geoname_id": 2925533,
