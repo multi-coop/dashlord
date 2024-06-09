@@ -4661,7 +4661,7 @@
     "summary": {
       "404": "A+",
       "httpGrade": "C",
-      "testsslExpireSoon": false,
+      "testsslExpireSoon": true,
       "testsslExpireDate": "2024-07-03T09:50:00.000Z",
       "testsslGrade": "A+",
       "cookiesGrade": "A",
@@ -9344,7 +9344,7 @@
     "summary": {
       "404": "A+",
       "httpGrade": "C",
-      "testsslExpireSoon": false,
+      "testsslExpireSoon": true,
       "testsslExpireDate": "2024-07-03T09:50:00.000Z",
       "testsslGrade": "A+",
       "cookiesGrade": "A",
